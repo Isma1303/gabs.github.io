@@ -1,0 +1,44 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.year-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.card-img-wrapper {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    background-color: #e9ecef;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.year-card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-title {
+    margin-bottom: 0;
+    color: #333;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    letter-spacing: -1px;
+}
